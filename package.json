@@ -1,0 +1,33 @@
+{
+  "author": "Ashish Ghosh",
+  "description": "Playwright end-to-end test automation with Cucumber",
+  "keywords": [
+    "cucumber",
+    "playwright",
+    "playwright automation",
+    "e2e",
+    "e2e tests",
+    "integration test",
+    "test automation",
+    "javascript"
+  ],
+  "license": "",
+  "name": "playwright-cucumberjs",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "test": "cucumber-js",
+    "format": "npx prettier --write ."
+  },
+  "version": "1.0.0",
+  "dependencies": {
+    "@cucumber/cucumber": "^8.5.2",
+    "@playwright/test": "^1.25.1",
+    "cucumber-html-reporter": "^5.3.0",
+    "playwright": "^1.25.1",
+    "prettier": "^2.7.1",
+    "undici": "^5.10.0"
+  }
+}
